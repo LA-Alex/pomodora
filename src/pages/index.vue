@@ -5,7 +5,7 @@
         <h1>目前事項 {{ currentText }}</h1>
       </v-col>
       <v-col cols="12">
-        <digit v-for="(data, i) in currentTime" :key="i" :data="data" color="pink"></digit>
+        <digit v-for="(data, i) in currentTime" :key="i" :data="data" color="dark"></digit>
       </v-col>
       <v-col cols="12">
         <v-btn

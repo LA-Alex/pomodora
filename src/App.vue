@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar>
+    <v-app-bar :style="{ backgroundColor: '#fbd71f' }">
       <v-container class="d-flex align-center">
         <v-app-bar-title>番茄鐘</v-app-bar-title>
         <v-btn prepend-icon="mdi-home" to="/">首頁</v-btn>
@@ -29,10 +29,12 @@
 
 <style scoped>
 .background {
+  background-color: #eceff3;
   background-image: url(./assets/466117278_948320513849764_6602088881986865474_png.png); /* 替換成你的圖片路徑 */
-  background-size: cover; /* 背景覆蓋整個區域 */
-  background-position: center; /* 背景居中顯示 */
+  background-size: cover; /* 讓圖片完整顯示 */
+  background-position: top; /* 背景居中顯示 */
   background-repeat: no-repeat; /* 防止圖片重複 */
-  height: 100vh; /* 確保背景覆蓋整個頁面 */
+  height: 1500px; /* 高度設置為視口高度，保證背景圖片完全顯示 */
+  /* 宽度设置为100% */
 }
 </style>

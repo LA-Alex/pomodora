@@ -95,5 +95,4 @@ path, circle
   height: auto
   width: 100px
   margin: 20px
-  background-color: #333
 </style>
