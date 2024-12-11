@@ -1,10 +1,10 @@
 <template>
   <v-container>
-    <v-row>
-      <v-col cols="12">
+    <v-row style="z-index: 2">
+      <v-col cols="12" style="z-index: 2">
         <h1 class="text-center">未完成</h1>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" style="z-index: 2">
         <v-text-field
           ref="inputTextField"
           v-model="input"
@@ -15,7 +15,7 @@
           @keydown.enter="onInputSubmit"
           @click:append="onInputSubmit"
         ></v-text-field>
-        <v-table>
+        <v-table style="">
           <thead>
             <tr>
               <th>事項</th>
@@ -52,10 +52,10 @@
           </tbody>
         </v-table>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" style="z-index: 2">
         <h1 class="text-center">已完成</h1>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" style="z-index: 2">
         <v-table>
           <thead>
             <tr>

@@ -4,7 +4,7 @@
       <v-col cols="12">
         <h1 class="text-center">鈴聲設定</h1>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" style="z-index: 2">
         <v-table>
           <thead>
             <tr>
